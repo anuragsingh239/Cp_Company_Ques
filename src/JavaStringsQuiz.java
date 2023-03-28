@@ -36,11 +36,14 @@ public class JavaStringsQuiz {
 //        System.out.println(str1==str2);
 //        System.out.println(str1.equals(str2));
 //        System.out.println(str1.hashCode()==str2.hashCode());
-        String str1="java";
-        String str2=str1.intern();
-        String str3=new String("java");
-        System.out.println(str1==str2);
-        System.out.println(str2==str3);
-        System.out.println(str3==str1);
+//        String str1="java";
+//        String str2=str1.intern();
+//        String str3=new String("java");
+//        System.out.println(str1==str2);
+//        System.out.println(str2==str3);
+//        System.out.println(str3==str1);
+        String s1="1";
+        System.out.println(s1.concat("2").concat("3"));
+        System.out.println("java"+1000+2000+3000);
     }
 }
